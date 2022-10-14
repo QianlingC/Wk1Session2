@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Session-2</title>
+  </head>
+
+  <!-- Odd/Even & Multiple of 3 -->
+  <body>
+    <h2>Odd or Even, Multiples of 3?</h2>
+    <form>
+      <label>Enter Value</label>
+      <input type="number" id="num" placeholder="Please enter number" />
+    </form>
+    <button onclick="oddEven()">Odd/Even</button>
+    <button onclick="Multiply()">Multiple of 3</button>
+    <p id="display"></p>
+    <p id="display2"></p>
+
+    <!-- Simple Interest  -->
+    <h2>Calculate the Simple Interest</h2>
+    <form>
+      <label>Enter the principal amount</label>
+      <input
+        type="number"
+        id="principal"
+        placeholder="Please enter principal amount"
+      />
+      <br />
+      <label>Enter the interest rate per annum</label>
+      <input type="number" id="rate" placeholder="Please enter interest rate" />
+      <br />
+      <label>Enter the number of years</label>
+      <input
+        type="number"
+        id="years"
+        placeholder="Please enter the number of years"
+      />
+    </form>
+    <button onclick="simpleInterest()">Calculate the simple interest</button>
+    <p id="displayInterest"></p>
+
+    <!-- Find the Day -->
+    <h2>Find the Day</h2>
+    <form>
+      <label>Find out about the day</label>
+      <input type="number" id="dayNum" />
+      <br />
+    </form>
+    <button onclick="simpleDay()">Find the day</button>
+    <p id="displayDay"></p>
+
+    <h2>Multiplcation Calculator</h2>
+    <form>
+      <label>Enter the first number</label>
+      <input type="number" id="firstNum" />
+      <br />
+      <label>Enter the second number</label>
+      <input type="number" id="secondNum" />
+    </form>
+    <button onclick="simpleMultiply()">Multiply</button>
+    <p id="displayCalculate"></p>
+
+    <h3>JavaScript to print Even Numbers within a Range!</h3>
+    Start: <input type="number" min="0" id="start" value="1" /> End:
+    <input type="number" id="end" min="1" value="20" />
+    <input type="button" onclick="printEvenNums()" value="Print Even Numbers" />
+    <div id="result"></div>
+
+    <!-- Find The List -->
+    <h2>Find the Fruits</h2>
+    <ul id="fruits">
+      <li class="item">apple</li>
+      <li class="item">banana</li>
+      <li class="item">orange</li>
+      <li class="item">pear</li>
+      <li class="item">durain</li>
+      <li class="item">mango</li>
+    </ul>
+    <input type="text" id="nameFruit" />
+    <button onclick="findFruit()">Find the Fruit</button>
+    <p id="displayFruit"></p>
+
+    <!-- <script src="./js/script.js"></script> -->
+    <script src="./js/exercise2.js"></script>
+  </body>
+</html>
+
+<!-- onchange
+onclick
+onmouseover
+onkeyup
+onsubmit -->
